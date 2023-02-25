@@ -37,7 +37,7 @@ def main():
     st.write('''This app is a Twitter Scraping web app created using Streamlit. 
              It scrapes the twitter data for the given hashtag/ keyword for the given period.
              The tweets are uploaded in MongoDB and can be dowloaded as CSV or a JSON file.''')
-    image = Image.open(r"https://res.cloudinary.com/practicaldev/image/fetch/s--q8mBCQBW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/1ykamh5rf8ukqajqqpaq.png") 
+    image = Image.open("https://res.cloudinary.com/practicaldev/image/fetch/s--q8mBCQBW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/1ykamh5rf8ukqajqqpaq.png") 
     st.image(image, caption='Twitter Scraping')
 
   # Menu 2 is about the Twitter Scrape libraries, databases and apps

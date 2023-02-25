@@ -37,8 +37,6 @@ def main():
     st.write('''This app is a Twitter Scraping web app created using Streamlit. 
              It scrapes the twitter data for the given hashtag/ keyword for the given period.
              The tweets are uploaded in MongoDB and can be dowloaded as CSV or a JSON file.''')
-    image = Image.open(r"https://github.com/nirmaladevij/twitter_scraping/blob/master/elonmusktwt.png") 
-    st.image(image, caption='Twitter Scraping')
 
   # Menu 2 is about the Twitter Scrape libraries, databases and apps
   elif choice=="About":
